@@ -1,0 +1,6 @@
+
+xrandr --output eDP --pos 1920x0 --rotate normal --output HDMI-A-0 --pos 0x0 --rotate normal
+
+feh --bg-scale ./.config/bg.jpg &
+picom &
+slstatus &
