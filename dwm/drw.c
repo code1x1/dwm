@@ -136,8 +136,6 @@ xfont_free(Fnt *font)
 {
 	if (!font)
 		return;
-	if (font->pattern)
-		FcPatternDestroy(font->pattern);
 	XftFontClose(font->dpy, font->xfont);
 	free(font);
 }
