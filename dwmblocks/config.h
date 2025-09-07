@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"🎹", "~/.local/bin/statusbar/sb-kbselect", 1, 30},
+	{"", "~/.local/bin/statusbar/sb-kbselect", 1, 30},
 	/* {"", "cat /tmp/recordingicon 2>/dev/null",	0,	9}, */
 	/* {"",	"sb-tasks",	10,	26}, */
 	/* {"",	"sb-music",	0,	11}, */
@@ -18,8 +18,9 @@ static const Block blocks[] = {
 	// {"",	"sb-doppler",	0,	13},
 	// {"",	"sb-forecast",	18000,	5},
 	// {"",	"sb-mailbox",	180,	12},
-	{"🌐",	"~/.local/bin/statusbar/sb-nettraf",	1,	16},
+	{"",	"~/.local/bin/statusbar/sb-nettraf",	1,	16},
 	{"",	"~/.local/bin/statusbar/sb-volume",	1,	10},
+	{"",	"~/.local/bin/statusbar/sb-brightness",	1,	10},
 	{"",	"~/.local/bin/statusbar/sb-battery",	5,	3},
 	{"",	"~/.local/bin/statusbar/sb-clock",	60,	1},
 	{"",	"~/.local/bin/statusbar/sb-internet",	5,	4},

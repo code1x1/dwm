@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "dwm"
+		},
+		{
+			"path": "slstatus"
+		},
+		{
+			"path": "st"
+		},
+		{
+			"path": "conky-grapes"
+		},
+		{
+			"path": "dwmstatus"
+		},
+		{
+			"path": "dwmblocks"
+		},
+		{
+			"path": "voidrice"
+		},
+		{
+			"path": "fonts"
+		}
+	],
+	"settings": {}
+}
